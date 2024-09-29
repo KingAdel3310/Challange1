@@ -1,0 +1,89 @@
+/*CSS FOR BODY AND TAGS*/
+.body{
+    padding: 11%  22%;
+    background-color: #f3e5d8;
+    justify-content: center;
+}
+h1{
+    margin: 10px 0px;
+    font-family: 'Young serif', serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+p{
+    line-height: 1.5;
+    font-family: 'outfit', sans-serif;
+}
+h2{
+    padding: 15px 0px;
+    color: #862a4f;
+    font-family: 'outfit', sans-serif;
+}
+h3{
+    padding: 15px 0px;
+    color: #7c3b25;
+    font-family: 'Young serif', serif;
+    font-weight: bolder;
+}
+ul{
+    font-family: 'outfit', sans-serif;
+}
+label{
+    font-weight: bolder;
+    margin-left: 30px;
+    font-family:'outfit', sans-serif;;
+}
+/*CSS FOR MAIN-CONTENT*/
+.main-content{
+    background-color: white;
+    border-radius: 20px;
+    padding: 4%;
+}
+#image{
+    height: 50px;
+    border-radius: 20px;
+}
+img{
+    height: 300px;
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+/*CSS FOR PREPARATION SECTION*/
+.preparation{
+    margin-top: 35px;
+    background-color: #f3e5d8;
+    padding: 4%;
+    border-radius: 20px;
+}
+/*CSS FOR THE INSTRUCTION SECTION*/
+.instructions{
+    line-height: 1.6;
+}
+.instructions ol li{
+    margin-bottom: 15px;
+    padding-right: 10px;
+}
+.instructions ol li label{
+    display: block;
+}
+.instructions ol li::marker{
+    color: #7c3b25;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.inst{
+    margin-left: 30px;
+}
+/*CSS FOR NUTRITION*/
+th{
+    font-weight: normal;
+    font-size: larger;
+}
+td{
+    width: 50%;
+}
+.numbers{
+    font-weight: bolder;
+    color: #7c3b25;
+}
